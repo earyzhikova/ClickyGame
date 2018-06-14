@@ -1,17 +1,21 @@
 import React from "react";
 import "./Imagecard.css";
 
-const Imagecard = props => (
-  <div className ="img-container p-3">
-  <div className="card">
-        
-         <button onClick={props.onClick}><img className="card-img-top" alt={props.name}  src={props.image} />
+class ImageCard extends React.Component {
+  render(){
+    return(
+      <div className ="img-container p-4">
+        <div className="card">
+          
+          <button onClick={() => this.props.onClick}><img className="card-img-top" alt={this.props.name}  src={this.props.image} />
           </button>
-        </div>
-        
-      </div>
+          
+          </div>
+          </div>
+    )
+  }
   
-)
+}
 
 
 
@@ -19,4 +23,4 @@ const Imagecard = props => (
   <div class="card">
     <img class="card-img-top" src=".../100px180/" alt="Card image cap"> */}
 
-export default Imagecard;
+export default ImageCard;
