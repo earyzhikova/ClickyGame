@@ -7,7 +7,7 @@ class ImageCard extends React.Component {
       <div className ="img-container p-4">
         <div className="card">
           
-          <button onClick={() => this.props.onClick}><img className="card-img-top" alt={this.props.name}  src={this.props.image} />
+          <button onClick={this.props.onClick}><img className="card-img-top" alt={this.props.name}  src={this.props.image} />
           </button>
           
           </div>
@@ -19,8 +19,8 @@ class ImageCard extends React.Component {
 
 
 
-{/* <div class="card-deck">
-  <div class="card">
-    <img class="card-img-top" src=".../100px180/" alt="Card image cap"> */}
+//  {<div class="card-deck">
+//   <div class="card">
+//     <img class="card-img-top" src=".../100px180/" alt="Card image cap">
 
 export default ImageCard;
