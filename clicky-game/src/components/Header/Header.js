@@ -21,9 +21,10 @@ class Header extends React.Component{
     </div>
     <div className="col-sm">
     <h4>{this.props.message}</h4>
+
     </div>
     <div className="col-sm">
-    <h4> Score:<span className="Score" >{this.props.score}</span> || Top score: <span className="Top-score">{this.props.topScore}</span></h4>
+    <h4> Score: <span className="Score" >{this.props.score}</span> || Top score: <span className="Top-score">{this.props.topScore}</span></h4>
     </div>
   </div>
 </div>
