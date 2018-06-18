@@ -1,8 +1,9 @@
+import Vegas1 from "./img/vegas1.jpg"
 export default [
   {
     id: 1,
     name: "Vegas1",
-    image: require("./img/vegas1.jpg")
+    image: Vegas1
 
    
   },
