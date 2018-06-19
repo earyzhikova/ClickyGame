@@ -6,19 +6,4 @@ const Wrapper = props => <div className="wrapper">{props.children}</div>;
 
 export default Wrapper;
 
-// const Wrapper = () => {
-
-
-//   {images.map(image => (
-//     <Imagecard
-//     id={image.id}
-//     key={image.id}
-//     image={Image}
-//     />
-    
-//   )
-//   )
-// //   }
-// }
-
 

@@ -19,8 +19,6 @@ class ImageCard extends React.Component {
 
 
 
-//  {<div class="card-deck">
-//   <div class="card">
-//     <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+
 
 export default ImageCard;

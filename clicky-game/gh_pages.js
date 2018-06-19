@@ -7,5 +7,6 @@ ghpages.publish('build', {
   if (err) {
     console.log(err)
   }
+  console.log("success")
   console.log('published to github')
 })
